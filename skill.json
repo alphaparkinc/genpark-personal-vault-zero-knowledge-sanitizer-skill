@@ -1,0 +1,32 @@
+{
+  "name": "genpark-personal-vault-zero-knowledge-sanitizer-skill",
+  "version": "1.0.0",
+  "description": "Local-first zero-knowledge personal vault encryptor and PII sanitizer masking credentials, credit cards, and addresses before cloud LLM dispatch with client-side rehydration.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "zero-knowledge",
+    "pii-masking",
+    "personal-vault",
+    "privacy-preservation",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "sanitize_and_mask_pii",
+      "description": "Mask sensitive PII and API keys with cryptographic placeholders."
+    },
+    {
+      "name": "rehydrate_sanitized_text",
+      "description": "Safely restore original PII into LLM responses on client-side."
+    },
+    {
+      "name": "verify_zero_leakage",
+      "description": "Audit text to confirm zero raw secrets or PII presence."
+    },
+    {
+      "name": "run_privacy_benchmark",
+      "description": "Run zero-knowledge personal vault benchmark."
+    }
+  ]
+}
